@@ -1,0 +1,46 @@
+body{
+  background-color: rgb(166, 245, 219,0.5);
+}
+.App{
+  border: solid 3px   deeppink;
+  margin: 100px 30%;
+  width: 400px;
+  /* height: 250px; */
+  border-radius: 10px;
+  text-align: center;
+}
+.App h2{
+  color: deeppink;
+  font-size: 40px;
+}
+.App ul{
+  list-style:"⚠️";
+ cursor: pointer;
+ color: deeppink;
+ font-size: 22px;
+}.App input{
+  width: 200px;
+  height: 30px;
+  border-radius: 5px;
+  margin: 20px;
+  border-color: deeppink;
+}.App ul li{
+  word-wrap: break-word;
+}.App button{
+  background-color: deeppink;
+  border-radius: 5px;
+  color: #fff;
+  margin: auto;
+  border: none;
+  display: block;
+  width: 100px;
+  height: 30px;
+  margin-bottom: 20px;
+}
+.div1{
+  display: flex;
+  justify-content: space-between;
+}.diffstyl{
+  list-style:"✔️";
+   text-decoration: line-through;
+}
