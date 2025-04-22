@@ -1,9 +1,12 @@
 body{
-  background-color: rgb(166, 245, 219,0.5);
+  background-color: rgba(21, 189, 244, 0.5)
+  /* background-color: rgba(155, 136, 216, 0.5); */
+  /* background-color: rgb(166, 245, 219,0.5); */
 }
 .App{
   border: solid 3px   deeppink;
-  margin: 100px 30%;
+  /* border: solid 3px   rgb(33, 6, 39); */
+  margin: 100px auto;
   width: 400px;
   /* height: 250px; */
   border-radius: 10px;
@@ -26,6 +29,7 @@ body{
   border-color: deeppink;
 }.App ul li{
   word-wrap: break-word;
+  overflow-wrap: break-word;
 }.App button{
   background-color: deeppink;
   border-radius: 5px;
